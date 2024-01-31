@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Image Editing Tool</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Image Editing Tool</h1>
+    <input type="file" id="file-input" />
+    <button onclick="loadImage()">Load Image</button>
+    <div id="image-container">
+        <img id="image-preview" />
+    </div>
+    <button onclick="grayscale()">Grayscale</button>
+    <button onclick="invert()">Invert</button>
+    <button onclick="brighten()">Brighten</button>
+    <button onclick="reset()">Reset</button>
+    <script src="script.js"></script>
+</body>
+
+</html>
